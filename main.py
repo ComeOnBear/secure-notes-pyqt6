@@ -1,6 +1,7 @@
 from PySide6.QtWidgets import QApplication, QWidget
 import sys
 
+print("Hello from PySide67")
 
 app = QApplication(sys.argv)
 
