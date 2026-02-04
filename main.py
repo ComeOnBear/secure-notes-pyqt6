@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QApplication, QWidget, QMainWindow
+from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtGui import QIcon
 import sys
 
@@ -15,10 +15,12 @@ class MainWindow(QMainWindow):
         windowIcon = QIcon()
         windowIcon.addFile('assets/secure.png')
         self.setWindowIcon(windowIcon)
+        self.setWindowTitle("Secure Notes v0.1")
+        self.setMinimumSize
 
 
 app = QApplication(sys.argv)
 
-window = QWidget()
+window = MainWindow()
 window.show()
 app.exec()
